@@ -27,7 +27,18 @@
         display: block;
         font-weight: 700;
         color: #FFFFFF;
-        font-size: 12px;
+        font-size: 18px;
+
+        &:hover {
+            color: blueviolet;
+            text-decoration: none;
+        }
+    }
+
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
     }
 
 }
